@@ -11,6 +11,7 @@
 		69CE2EC51FCDB02C006BC1A1 /* CodableNSCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CE2EC41FCDB02C006BC1A1 /* CodableNSCacheTests.swift */; };
 		69CE2EC71FCDB02C006BC1A1 /* CodableNSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CE2EB91FCDB02C006BC1A1 /* CodableNSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69CE2ED21FCDB062006BC1A1 /* CodableNSCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CE2ED11FCDB062006BC1A1 /* CodableNSCache.swift */; };
+		69CE2ED31FCE2377006BC1A1 /* CodableNSCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CE2ED11FCDB062006BC1A1 /* CodableNSCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CE2ED31FCE2377006BC1A1 /* CodableNSCache.swift in Sources */,
 				69CE2EC51FCDB02C006BC1A1 /* CodableNSCacheTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
