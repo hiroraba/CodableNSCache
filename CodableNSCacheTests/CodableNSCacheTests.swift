@@ -27,10 +27,10 @@ class CodableNSCacheTests: XCTestCase {
     }
     
     func testCodableNSCache() {
-        let cache = CodableCache<Person>()
+        let cache = CodableNSCache<Person>()
         let person = Person(name: "hiroraba", address: "kyoto")
-        cache.setObject(obj: person, forKey: "test")
-        let p = cache.objectForKey(forKey: "test")
+        cache.setObject(obj: person, forKey: "example")
+        let p = cache.objectForKey(forKey: "example")
         XCTAssertEqual("hiroraba", p?.name)
     }
 }
