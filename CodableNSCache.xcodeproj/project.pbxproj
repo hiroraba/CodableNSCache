@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69CE2EC01FCDB02C006BC1A1 /* CodableNSCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE2EB61FCDB02C006BC1A1 /* CodableNSCache.framework */; };
+		69CE2EC51FCDB02C006BC1A1 /* CodableNSCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CE2EC41FCDB02C006BC1A1 /* CodableNSCacheTests.swift */; };
+		69CE2EC71FCDB02C006BC1A1 /* CodableNSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CE2EB91FCDB02C006BC1A1 /* CodableNSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69CE2EC11FCDB02C006BC1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69CE2EAD1FCDB02C006BC1A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69CE2EB51FCDB02C006BC1A1;
+			remoteInfo = CodableNSCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69CE2EB61FCDB02C006BC1A1 /* CodableNSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CodableNSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CE2EB91FCDB02C006BC1A1 /* CodableNSCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodableNSCache.h; sourceTree = "<group>"; };
+		69CE2EBA1FCDB02C006BC1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CE2EBF1FCDB02C006BC1A1 /* CodableNSCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodableNSCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CE2EC41FCDB02C006BC1A1 /* CodableNSCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableNSCacheTests.swift; sourceTree = "<group>"; };
+		69CE2EC61FCDB02C006BC1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69CE2EB21FCDB02C006BC1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CE2EBC1FCDB02C006BC1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CE2EC01FCDB02C006BC1A1 /* CodableNSCache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69CE2EAC1FCDB02C006BC1A1 = {
+			isa = PBXGroup;
+			children = (
+				69CE2EB81FCDB02C006BC1A1 /* CodableNSCache */,
+				69CE2EC31FCDB02C006BC1A1 /* CodableNSCacheTests */,
+				69CE2EB71FCDB02C006BC1A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69CE2EB71FCDB02C006BC1A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69CE2EB61FCDB02C006BC1A1 /* CodableNSCache.framework */,
+				69CE2EBF1FCDB02C006BC1A1 /* CodableNSCacheTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69CE2EB81FCDB02C006BC1A1 /* CodableNSCache */ = {
+			isa = PBXGroup;
+			children = (
+				69CE2EB91FCDB02C006BC1A1 /* CodableNSCache.h */,
+				69CE2EBA1FCDB02C006BC1A1 /* Info.plist */,
+			);
+			path = CodableNSCache;
+			sourceTree = "<group>";
+		};
+		69CE2EC31FCDB02C006BC1A1 /* CodableNSCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				69CE2EC41FCDB02C006BC1A1 /* CodableNSCacheTests.swift */,
+				69CE2EC61FCDB02C006BC1A1 /* Info.plist */,
+			);
+			path = CodableNSCacheTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69CE2EB31FCDB02C006BC1A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CE2EC71FCDB02C006BC1A1 /* CodableNSCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		69CE2EB51FCDB02C006BC1A1 /* CodableNSCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CE2ECA1FCDB02C006BC1A1 /* Build configuration list for PBXNativeTarget "CodableNSCache" */;
+			buildPhases = (
+				69CE2EB11FCDB02C006BC1A1 /* Sources */,
+				69CE2EB21FCDB02C006BC1A1 /* Frameworks */,
+				69CE2EB31FCDB02C006BC1A1 /* Headers */,
+				69CE2EB41FCDB02C006BC1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodableNSCache;
+			productName = CodableNSCache;
+			productReference = 69CE2EB61FCDB02C006BC1A1 /* CodableNSCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69CE2EBE1FCDB02C006BC1A1 /* CodableNSCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CE2ECD1FCDB02C006BC1A1 /* Build configuration list for PBXNativeTarget "CodableNSCacheTests" */;
+			buildPhases = (
+				69CE2EBB1FCDB02C006BC1A1 /* Sources */,
+				69CE2EBC1FCDB02C006BC1A1 /* Frameworks */,
+				69CE2EBD1FCDB02C006BC1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69CE2EC21FCDB02C006BC1A1 /* PBXTargetDependency */,
+			);
+			name = CodableNSCacheTests;
+			productName = CodableNSCacheTests;
+			productReference = 69CE2EBF1FCDB02C006BC1A1 /* CodableNSCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69CE2EAD1FCDB02C006BC1A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = matsuohiroki;
+				TargetAttributes = {
+					69CE2EB51FCDB02C006BC1A1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					69CE2EBE1FCDB02C006BC1A1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 69CE2EB01FCDB02C006BC1A1 /* Build configuration list for PBXProject "CodableNSCache" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69CE2EAC1FCDB02C006BC1A1;
+			productRefGroup = 69CE2EB71FCDB02C006BC1A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69CE2EB51FCDB02C006BC1A1 /* CodableNSCache */,
+				69CE2EBE1FCDB02C006BC1A1 /* CodableNSCacheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69CE2EB41FCDB02C006BC1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CE2EBD1FCDB02C006BC1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69CE2EB11FCDB02C006BC1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CE2EBB1FCDB02C006BC1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CE2EC51FCDB02C006BC1A1 /* CodableNSCacheTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69CE2EC21FCDB02C006BC1A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69CE2EB51FCDB02C006BC1A1 /* CodableNSCache */;
+			targetProxy = 69CE2EC11FCDB02C006BC1A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		69CE2EC81FCDB02C006BC1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69CE2EC91FCDB02C006BC1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69CE2ECB1FCDB02C006BC1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CodableNSCache/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Individual.CodableNSCache;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69CE2ECC1FCDB02C006BC1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CodableNSCache/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Individual.CodableNSCache;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69CE2ECE1FCDB02C006BC1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CodableNSCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Individual.CodableNSCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69CE2ECF1FCDB02C006BC1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CodableNSCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Individual.CodableNSCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69CE2EB01FCDB02C006BC1A1 /* Build configuration list for PBXProject "CodableNSCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CE2EC81FCDB02C006BC1A1 /* Debug */,
+				69CE2EC91FCDB02C006BC1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CE2ECA1FCDB02C006BC1A1 /* Build configuration list for PBXNativeTarget "CodableNSCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CE2ECB1FCDB02C006BC1A1 /* Debug */,
+				69CE2ECC1FCDB02C006BC1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CE2ECD1FCDB02C006BC1A1 /* Build configuration list for PBXNativeTarget "CodableNSCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CE2ECE1FCDB02C006BC1A1 /* Debug */,
+				69CE2ECF1FCDB02C006BC1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69CE2EAD1FCDB02C006BC1A1 /* Project object */;
+}
