@@ -8,7 +8,7 @@
 
 import Foundation
 
-class CodableNSCache<T:Codable> {
+struct CodableNSCache<T:Codable> {
     
     private var cache = NSCache<AnyObject, AnyObject>()
     
