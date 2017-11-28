@@ -10,6 +10,7 @@
 		69CE2EC01FCDB02C006BC1A1 /* CodableNSCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE2EB61FCDB02C006BC1A1 /* CodableNSCache.framework */; };
 		69CE2EC51FCDB02C006BC1A1 /* CodableNSCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CE2EC41FCDB02C006BC1A1 /* CodableNSCacheTests.swift */; };
 		69CE2EC71FCDB02C006BC1A1 /* CodableNSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CE2EB91FCDB02C006BC1A1 /* CodableNSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69CE2ED21FCDB062006BC1A1 /* CodableNSCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CE2ED11FCDB062006BC1A1 /* CodableNSCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		69CE2EBF1FCDB02C006BC1A1 /* CodableNSCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodableNSCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CE2EC41FCDB02C006BC1A1 /* CodableNSCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableNSCacheTests.swift; sourceTree = "<group>"; };
 		69CE2EC61FCDB02C006BC1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CE2ED11FCDB062006BC1A1 /* CodableNSCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableNSCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		69CE2EAC1FCDB02C006BC1A1 = {
 			isa = PBXGroup;
 			children = (
+				69CE2ED01FCDB03C006BC1A1 /* Sources */,
 				69CE2EB81FCDB02C006BC1A1 /* CodableNSCache */,
 				69CE2EC31FCDB02C006BC1A1 /* CodableNSCacheTests */,
 				69CE2EB71FCDB02C006BC1A1 /* Products */,
@@ -84,6 +87,14 @@
 				69CE2EC61FCDB02C006BC1A1 /* Info.plist */,
 			);
 			path = CodableNSCacheTests;
+			sourceTree = "<group>";
+		};
+		69CE2ED01FCDB03C006BC1A1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				69CE2ED11FCDB062006BC1A1 /* CodableNSCache.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 				TargetAttributes = {
 					69CE2EB51FCDB02C006BC1A1 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					69CE2EBE1FCDB02C006BC1A1 = {
@@ -196,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CE2ED21FCDB062006BC1A1 /* CodableNSCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +347,7 @@
 		69CE2ECB1FCDB02C006BC1A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,7 +360,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Individual.CodableNSCache;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -354,6 +369,7 @@
 		69CE2ECC1FCDB02C006BC1A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -366,7 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Individual.CodableNSCache;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -374,6 +390,7 @@
 		69CE2ECE1FCDB02C006BC1A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CodableNSCacheTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +404,7 @@
 		69CE2ECF1FCDB02C006BC1A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CodableNSCacheTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
