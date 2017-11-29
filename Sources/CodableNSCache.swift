@@ -56,6 +56,28 @@ struct CodableNSCache<T:Codable> {
         self.cache.removeAllObjects()
     }
     
+    subscript(key: AnyObject) -> T? {
+        get {
+            return objectForKey(forKey: key)
+        }
+        set(obj) {
+            if let data = try? JSONEncoder().encode(obj)  {
+                cache.setObject(data as AnyObject, forKey: key)
+            }
+        }
+    }
+    
+    subscript(key: String) -> T? {
+        get {
+            return objectForKey(forKey: key as AnyObject)
+        }
+        set(obj) {
+            if let data = try? JSONEncoder().encode(obj)  {
+                cache.setObject(data as AnyObject, forKey: key as AnyObject)
+            }
+        }
+    }
+    
     var totalCostLimit: Int {
         
         get {

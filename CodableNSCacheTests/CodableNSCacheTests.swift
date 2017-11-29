@@ -33,4 +33,15 @@ class CodableNSCacheTests: XCTestCase {
         let p = cache.objectForKey(forKey: "example")
         XCTAssertEqual("hiroraba", p?.name)
     }
+    
+    func testCodableNSCacheSubscript() {
+        var cache = CodableNSCache<Person>()
+        let person = Person(name: "hiroraba", address: "kyoto")
+        cache["example"] = person
+        if let p = cache["example"] {
+            XCTAssertEqual("hiroraba", p.name)
+        } else {
+            XCTFail()
+        }
+    }
 }
