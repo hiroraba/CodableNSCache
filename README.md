@@ -1,8 +1,8 @@
 # CodableNSCache
 [![Build Status](https://travis-ci.org/hiroraba/CodableNSCache.svg?branch=master)](https://travis-ci.org/hiroraba/CodableNSCache)
 ![Languages](https://img.shields.io/badge/languages-Swift%203.2-orange.svg)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-green.svg?style=flat)]
-[![Cocoapods compatible](https://img.shields.io/badge/Cocoapods-compatible-red.svg)]
+![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-green.svg?style=flat)
+![Cocoapods compatible](https://img.shields.io/badge/Cocoapods-compatible-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Simple Wrapper NSCache for Codable Protocol 
