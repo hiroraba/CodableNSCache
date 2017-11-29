@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CodableNSCache"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Simple Wrapper NSCache for Codable Protocol"
   s.homepage     = "https://github.com/hiroraba/CodableNSCache"
   s.license      = { :type => "MIT", :file => "LICENSE" }
