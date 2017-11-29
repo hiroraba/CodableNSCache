@@ -1,4 +1,6 @@
 # CodableNSCache
+[![Build Status](https://travis-ci.org/hiroraba/CodableNSCache.svg?branch=master)](https://travis-ci.org/hiroraba/CodableNSCache)
+
 Simple Wrapper NSCache for Codable Protocol 
 
 ```swift
